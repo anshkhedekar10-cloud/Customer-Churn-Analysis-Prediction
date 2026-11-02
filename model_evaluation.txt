@@ -1,0 +1,78 @@
+# Machine Learning Model Evaluation – Customer Churn Prediction
+
+## 1. Model Overview
+
+Two Machine Learning models were developed and evaluated to predict customer churn.
+
+* Model 1: Original Model
+* Model 2: Balanced Model
+
+The objective was to identify customers who are likely to leave the telecom company.
+
+## 2. Model Performance Comparison
+
+| Evaluation Metric | Original Model | Balanced Model |
+| ----------------- | -------------: | -------------: |
+| Accuracy          |         80.31% |         72.71% |
+| Precision         |         64.56% |         49.17% |
+| Recall            |         57.49% |         79.41% |
+| F1-Score          |         60.82% |         60.74% |
+
+## 3. Understanding the Results
+
+### Original Model
+
+* Achieved higher accuracy of 80.31%.
+* Demonstrated better precision of 64.56%.
+* Identified 57.49% of actual churn customers.
+* Suitable when reducing false positive predictions is important.
+
+### Balanced Model
+
+* Achieved 72.71% accuracy.
+* Improved recall to 79.41%.
+* Identified a larger proportion of customers who actually churn.
+* Suitable when identifying as many potential churn customers as possible is the priority.
+
+## 4. Model Selection
+
+The Balanced Model is preferred for customer retention purposes because it achieves higher recall.
+
+Although its accuracy is lower, it identifies more customers who are likely to leave.
+
+This allows the business to take early action through targeted retention campaigns.
+
+However, its lower precision means the company may contact more customers who would not actually churn.
+
+## 5. Business Impact
+
+The Machine Learning model can help businesses:
+
+* Identify customers at risk of leaving.
+* Develop targeted retention strategies.
+* Improve customer engagement.
+* Reduce customer loss.
+* Support data-driven business decisions.
+
+## 6. Conclusion
+
+The Balanced Model achieved a recall of 79.41%, compared with 57.49% for the Original Model.
+
+For a customer retention strategy where missing potential churners is costly, the Balanced Model is a reasonable choice.
+
+Further tuning and validation can improve the model's predictive performance.
+
+
+Customer-churn-analysis/
+│
+├── .venv/
+├── dashboard/
+├── data/
+├── images/
+├── notebooks/
+├── sql/
+│
+├── Business_Insights.txt
+├── Model_Evaluation.txt
+├── README.md
+└── requirements.txt

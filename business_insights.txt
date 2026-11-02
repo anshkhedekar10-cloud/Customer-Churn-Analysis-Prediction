@@ -1,0 +1,30 @@
+# Business Insights – Customer Churn Analysis
+
+## 1. Key Findings
+
+1. Contract Type: Customers with month-to-month contracts show higher churn compared with customers on longer-term contracts.
+
+2. Customer Tenure: Customers with shorter tenure are more likely to leave, indicating that early customer engagement is important.
+
+3. Internet Service: Fiber optic customers represent an important segment to investigate for potential churn-related issues.
+
+4. Senior Citizens: Senior citizens demonstrate a higher churn rate than non-senior customers.
+
+5. Partner Status: Customers without partners show higher churn rates.
+
+6. Dependents: Customers without dependents are more likely to leave.
+
+7. Gender: Churn rates are relatively similar between male and female customers.
+
+## 2. Business Recommendations
+
+* Introduce loyalty programs for long-term customers.
+* Offer special discounts to month-to-month customers who switch to annual contracts.
+* Develop onboarding programs for new customers.
+* Investigate service quality and pricing concerns among fiber optic customers.
+* Provide personalized retention offers to high-risk customer segments.
+* Improve customer support and engagement.
+
+## 3. Business Objective
+
+The objective is to reduce customer churn, improve customer satisfaction, increase customer retention, and support data-driven business decisions.
